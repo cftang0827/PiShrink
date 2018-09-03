@@ -5,6 +5,8 @@ Besides, pidisk2img.sh use dd command to put rpi img file to SD card.
 
 ## Usage ##
 `sudo pishrink.sh [-s] imagefile.img [newimagefile.img]`
+
+
 `sudo pidisk2img.sh newimagefile.img /dev/YourSDCardDevice`
 
 If the `-s` option is given the script will skip the autoexpanding part of the process.  If you specify the `newimagefile.img` parameter, the script will make a copy of `imagefile.img` and work off that. You will need enough space to make a full copy of the image to use that option.
