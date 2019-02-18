@@ -20,6 +20,7 @@ If using Ubuntu, you will likely see an error about `e2fsck` being out of date a
 ```bash
 wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
 chmod +x pishrink.sh
+chmod +x pidisk2img.sh
 sudo mv pishrink.sh /usr/local/bin
 ```
 
